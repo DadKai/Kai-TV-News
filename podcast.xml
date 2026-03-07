@@ -1,20 +1,27 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
 <channel>
 
 <title>Kai TV Tech News</title>
-<description>Daily tech news in audio format</description>
 <link>https://github.com/DadKai/Kai-TV-News</link>
+<language>en-us</language>
+<description>Daily tech news audio generated automatically.</description>
+
+<itunes:author>Kai TV</itunes:author>
+<itunes:summary>Daily tech news audio generated automatically.</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
 
 <item>
 <title>Tech News - March 7 2026</title>
 <enclosure url="https://raw.githubusercontent.com/DadKai/Kai-TV-News/main/tech-news-2026-03-07.mp3"
-length="12345678"
+length="1000000"
 type="audio/mpeg"/>
 <guid>tech-news-2026-03-07</guid>
 <pubDate>Sat, 07 Mar 2026 10:00:00 GMT</pubDate>
-
+<description>Tech news for March 7 2026</description>
 </item>
 
 </channel>
