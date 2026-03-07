@@ -28,9 +28,8 @@ for entry in feed.entries[:5]:  # first 5 stories
 full_text = " ".join(text_parts)
 
 # Save in Documents folder
-filename = os.path.expanduser(
-    f"~/Documents/tech-news-{datetime.now().strftime('%Y-%m-%d')}.mp3"
-)
+filename = f"tech-news-{datetime.now().strftime('%Y-%m-%d')}.mp3"
+
 
 tts = gTTS(text=full_text, lang="en")
 tts.save(filename)
