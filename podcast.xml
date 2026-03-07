@@ -13,12 +13,18 @@
   <itunes:explicit>false</itunes:explicit>
   <itunes:image href="https://dadkai.github.io/Kai-TV-News/cover.jpg"/>
 
+  <!-- Apple Podcasts categories -->
+  <itunes:category text="Technology"/>
+  <itunes:category text="News"/>
+
+  <!-- First episode -->
   <item>
     <title>Tech News - March 7 2026</title>
     <description>Tech news for March 7</description>
+    <link>https://dadkai.github.io/Kai-TV-News/</link>
     <enclosure url="https://raw.githubusercontent.com/DadKai/Kai-TV-News/main/tech-news-2026-03-07.mp3"
-    length="1000000"
-    type="audio/mpeg"/>
+      length="1000000"
+      type="audio/mpeg"/>
     <guid>tech-news-2026-03-07</guid>
     <pubDate>Sat, 07 Mar 2026 10:00:00 GMT</pubDate>
   </item>
