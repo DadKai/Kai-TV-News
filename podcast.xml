@@ -3,6 +3,7 @@
  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
 <channel>
+  <!-- Podcast info -->
   <title>Kai TV Tech News</title>
   <link>https://dadkai.github.io/Kai-TV-News/</link>
   <language>en-us</language>
@@ -17,7 +18,7 @@
   <itunes:category text="Technology"/>
   <itunes:category text="News"/>
 
-  <!-- First episode -->
+  <!-- Example episode -->
   <item>
     <title>Tech News - March 7 2026</title>
     <description>Tech news for March 7</description>
@@ -28,5 +29,8 @@
     <guid>tech-news-2026-03-07</guid>
     <pubDate>Sat, 07 Mar 2026 10:00:00 GMT</pubDate>
   </item>
+
+  <!-- Add more <item> entries for new episodes here -->
+
 </channel>
 </rss>
