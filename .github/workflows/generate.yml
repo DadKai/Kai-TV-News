@@ -1,8 +1,11 @@
 name: Generate TLDR Podcast
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "0 14 * * *"   # runs daily (6 AM PST)
   workflow_dispatch:
 
 jobs:
@@ -10,20 +13,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - run: pip install feedparser gtts beautifulsoup4
+      - name: Install dependencies
+        run: pip install feedparser gtts beautifulsoup4
 
-      - run: python TLDR.py
+      - name: Run podcast generator
+        run: python TLDR.py
 
-      - name: Commit MP3
+      - name: Commit MP3 file
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add *.mp3
-          git commit -m "Daily episode" || echo "No changes"
-          git push  
+          git commit -m "Daily episode" || echo "No changes to commit"
+          git push
