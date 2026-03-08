@@ -1,36 +1,36 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
 <channel>
-  <!-- Podcast info -->
-  <title>Kai TV Tech News</title>
-  <link>https://dadkai.github.io/Kai-TV-News/</link>
-  <language>en-us</language>
-  <description>Daily automated tech news podcast.</description>
 
-  <itunes:author>Kai TV</itunes:author>
-  <itunes:summary>Daily automated tech news podcast.</itunes:summary>
-  <itunes:explicit>false</itunes:explicit>
-  <itunes:image href="https://imgur.com/a/OPGl05S.jpg"/>
+<title>Kai TV Tech News</title>
+<link>https://DadKai.github.io/REPOSITORY/</link>
+<language>en-us</language>
+<description>Daily tech news and updates from Kai TV.</description>
 
-  <!-- Apple Podcasts categories -->
-  <itunes:category text="Technology"/>
-  <itunes:category text="News"/>
+<itunes:author>Kai TV</itunes:author>
+<itunes:summary>Daily tech news and updates from Kai TV.</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
 
-  <!-- Example episode -->
-  <item>
-    <title>Tech News - March 7 2026</title>
-    <description>Tech news for March 7</description>
-    <link>https://dadkai.github.io/Kai-TV-News/</link>
-    <enclosure url="https://raw.githubusercontent.com/DadKai/Kai-TV-News/main/tech-news-2026-03-07.mp3"
-      length="1000000"
-      type="audio/mpeg"/>
-    <guid>tech-news-2026-03-07</guid>
-    <pubDate>Sat, 07 Mar 2026 10:00:00 GMT</pubDate>
-  </item>
+<itunes:image href="https://YOURIMAGEHOST/cover.jpg"/>
 
-  <!-- Add more <item> entries for new episodes here -->
+<itunes:category text="Technology"/>
+
+<item>
+<title>Episode 1</title>
+<description>Today's tech news.</description>
+<pubDate>Sat, 07 Mar 2026 18:00:00 GMT</pubDate>
+
+<enclosure 
+url="https://DadKai.github.io/REPOSITORY/episode1.mp3"
+length="12345678"
+type="audio/mpeg"/>
+
+<guid>episode1</guid>
+</item>
 
 </channel>
 </rss>
+```
