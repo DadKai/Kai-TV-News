@@ -13,11 +13,8 @@
 <itunes:author>Kai TV</itunes:author>
 <itunes:summary>Daily tech news and updates from Kai TV.</itunes:summary>
 <itunes:explicit>no</itunes:explicit>
-
-<itunes:image href="https://YOURIMAGEHOST/cover.jpg"/>
-
+<itunes:image href="https://imgur.com/a/OPGl05S.jpg"/>
 <itunes:category text="Technology"/>
-
 <item>
 <title>Episode 1</title>
 <description>Today's tech news.</description>
