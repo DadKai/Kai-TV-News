@@ -1,4 +1,3 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
@@ -6,22 +5,23 @@
 <channel>
 
 <title>Kai TV Tech News</title>
-<link>https://DadKai.github.io/REPOSITORY/</link>
+<link>https://dadkai.github.io/Kai-TV-News/</link>
 <language>en-us</language>
 <description>Daily tech news and updates from Kai TV.</description>
 
 <itunes:author>Kai TV</itunes:author>
 <itunes:summary>Daily tech news and updates from Kai TV.</itunes:summary>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="https://imgur.com/a/OPGl05S.jpg"/>
+<itunes:image href="https://imgur.com/a/oxypJIV"/>
 <itunes:category text="Technology"/>
+
 <item>
 <title>Episode 1</title>
 <description>Today's tech news.</description>
 <pubDate>Sat, 07 Mar 2026 18:00:00 GMT</pubDate>
 
-<enclosure 
-url="https://DadKai.github.io/REPOSITORY/episode1.mp3"
+<enclosure
+url="https://dadkai.github.io/Kai-TV-News/episode1.mp3"
 length="12345678"
 type="audio/mpeg"/>
 
@@ -30,4 +30,3 @@ type="audio/mpeg"/>
 
 </channel>
 </rss>
-```
